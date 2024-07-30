@@ -1,0 +1,14 @@
+/* Ensure no margin or padding affects the canvas */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scrollbars if the canvas overflows */
+}
+
+/* Optional: Center the content if you have other UI elements */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
